@@ -19,7 +19,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 }
 
 const Home = ({posts}: InferGetStaticPropsType<typeof getStaticProps>) => {
-    const title = 'Test Blog';
+    const title = 'MG Blog';
     const description = 'Welcome to my Notion Blog.'
     const [searchTerm, setSearchTerm] = useState('');
 
