@@ -1,0 +1,22 @@
+.content{
+    color: white;
+}
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6{
+    color: #F8B179;
+}
+.content pre{
+    background-color: #1F2028;
+}
+.content p code{
+    background-color: hsla(44,6%,50%,.15);
+    color: #eb5757;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-size: 85%;
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+}
