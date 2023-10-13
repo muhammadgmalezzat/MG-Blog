@@ -1,2 +1,2 @@
 # MG-Blog
-Technical Blog Based on Notion 
+Technical Blog Based on Notion API
