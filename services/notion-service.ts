@@ -78,7 +78,9 @@ export default class NotionService {
 
     private static pageToPostTransformer(page: any): BlogPost {
         let cover = page.cover;
-        switch (cover.type) {
+        //console.log(cover)
+        if (cover) {
+            switch (cover.type) {
             case 'file':
                 cover = page.cover.file
                 break;
@@ -89,6 +91,8 @@ export default class NotionService {
                 // Add default cover image if you want...
                 cover = ''
         }
+        }
+        
 
         return {
             id: page.id,

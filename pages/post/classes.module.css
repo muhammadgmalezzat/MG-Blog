@@ -20,3 +20,7 @@
     font-size: 85%;
     font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
 }
+.content a{
+    color: #F8B179;
+    text-decoration: none;
+}

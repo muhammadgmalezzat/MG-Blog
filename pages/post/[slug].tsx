@@ -12,7 +12,7 @@ SyntaxHighlighter.registerLanguage("js", js);
 
 const PostContent = ({ markdown, post }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
-    //console.log(post.cover)
+    console.log(post)
  
     
     return (
@@ -42,7 +42,7 @@ const PostContent = ({ markdown, post }: InferGetStaticPropsType<typeof getStati
                             </span>
                 </div>
                 <main className="max-w-5xl mx-auto relative">
-                    <div className="flex items-center justify-center w-full">
+                    <div className="flex items-center justify-start w-full">
                         <article className="prose w-full">
                             <ReactMarkdown className={Classes.content}>{markdown}</ReactMarkdown>
                         </article>
@@ -65,7 +65,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
     if (!p) {
         throw ''
     }
-
+    //console.log(p.markdown)
     return {
         props: {
             markdown: p.markdown,
