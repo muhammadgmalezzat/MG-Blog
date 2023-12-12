@@ -12,7 +12,7 @@ SyntaxHighlighter.registerLanguage("js", js);
 
 const PostContent = ({ markdown, post }: InferGetStaticPropsType<typeof getStaticProps>) => {
 
-    console.log(post)
+    //console.log(post)
  
     
     return (

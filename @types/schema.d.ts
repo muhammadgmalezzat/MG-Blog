@@ -18,3 +18,9 @@ export type PostPage = {
     post: BlogPost,
     markdown: string
 }
+export type State = {
+    allPosts: [],
+  filteredPosts: [],
+  selectedTopic: Tag,
+  searchQuery: string,
+}
